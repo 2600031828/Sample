@@ -1,0 +1,56 @@
+#name{
+   background-color:green;
+   color:aqua
+
+}
+
+.Name{
+
+   background-color: aqua;
+   color:green;
+}
+#trail{
+   background-color: aquamarine;
+   color :aliceblue;
+   font-size: 40px;
+}
+
+#Boldtypes{
+   background-color: black;
+   color: aliceblue;
+   font-size: 40px;
+   font-weight: bold;
+}
+
+.Boldtypes2{
+
+   background-color:black ;
+   color:aliceblue;
+   font-size:30px;
+   font-weight: 900;
+}
+
+.same{
+   background-color: azure;
+   font-size: 50px;
+   text-align: center;
+}
+
+.Box1{
+
+background-color: blanchedalmond;
+color: red;
+width: 250px;
+height: 200px;
+
+}
+
+#Box2{
+
+   background-color: aqua;
+   color: red;
+   width: 400px;
+   height: 300px;
+   
+}
+

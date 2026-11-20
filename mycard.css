@@ -1,0 +1,27 @@
+.menu{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px
+}
+.card{
+    border: 1px solid #ccc;
+}
+img:hover{
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+}
+.card .img{
+    object-fit: cover; 
+}
+#btn1{
+    margin-top: 10px;
+    background-color: red;
+    color:white;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 350px;
+    
+}
+#btn{
+    margin-top: 20px;
+}
