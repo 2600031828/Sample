@@ -1,0 +1,114 @@
+CSS file for NAV bar
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #050d1d;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+  
+}
+
+/* Logo section */
+.brand-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* N Logo */
+.logo {
+    color: #50b5ff;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+/* NETRA text */
+.brand-name {
+    color: #64baff;
+    font-size: 55px;
+}
+
+/* Title section */
+.title-section {
+    margin-left: 40px;
+}
+
+.title-section h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.title-section p {
+    color: white;
+    font-size: 22px;
+}
+
+/* Right section */
+.right-section {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 30px;
+}
+
+/* Live status */
+.status {
+    color: #16e9a1;
+    font-size: 20px;
+}
+
+/* Green circle */
+.status-dot {
+    display: inline-block;
+    background-color: #16e9a1;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+/* Dispatch button */
+.dispatch-btn {
+    background-color: #087bff;
+    color: white;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.page{
+    padding: 35px 5%;
+}
+.page p{
+    color: #91a8c5
+}
+.kpi-grid{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 30px;
+}
+.kpi-card{
+    background: #52698a;
+    border: 1px solid #29548d;
+    border-radius: 12px;
+}
+
+
+.kpi-card{
+    padding: 22px;
+    transition: 0.2s;
+
+}
+.kpi-card:hover {
+    border-color: #438cff;
+    transform: translateY(-3px);
+
+}

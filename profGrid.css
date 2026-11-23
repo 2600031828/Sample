@@ -1,0 +1,80 @@
+.container{
+    display:grid;
+    grid-template-areas:
+    "header header"
+    "navigation navigation"
+    "maincontent  sidebar"
+    "footer  footer";
+
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+    grid-template-columns: 3fr 1fr;  
+}
+
+.header{
+    grid-area:header;
+    background-color: yellow;
+    text-align: center;
+    padding:10px;
+    font-size: 50px;
+   
+}
+.navigation{
+    grid-area:navigation;
+    text-align:center;
+    background-color:red;
+    padding:10px;
+    font-size:40px;
+}
+.navigation .names{
+    padding-top:10px;
+    font-size:20px;
+
+    
+}
+.maincontent{
+    grid-area:maincontent;
+    text-align:left;
+    background-color:blue;
+    padding:10px;
+    font-size: 50px;
+
+}
+
+.maincontent .pr1{
+    background-color:white;
+    font-size: 30px;
+    text-align:left;
+    padding:10px;
+    margin-top:60px;
+   
+}
+.maincontent .pr2{
+    background-color:white;
+    font-size:30px;
+    text-align:left;
+    margin-top:100px;
+    padding:10px;
+    
+   
+}
+.sidebar{
+    grid-area:sidebar;
+    text-align:center;
+    background-color:pink;
+    padding:10px;
+    font-size:20px;
+    padding-top:150px;
+}
+.footer{
+    grid-area:footer;
+    text-align:center;
+    background-color:aqua;
+    padding-top:10px;
+    font-size:30px;
+}
+#sumitbtn{
+    transition: all 0.3s ease;
+    padding: 20px 30px;
+    
+
+}
